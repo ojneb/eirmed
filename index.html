@@ -1,4 +1,3 @@
-  
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,11 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to Our Site</title>
     <style>
+        /* Reset margins and padding */
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+        }
+
         /* Style for the body to add the background image */
         body {
-            margin: 0;
             height: 100vh; /* Full viewport height */
-            background-image: url(' https://github.com/ojneb/eirmed/blob/main/whiteBgGreenLogoCentered.png?raw=true'); /* Image hosted on GitHub */
+            background-image: url('https://github.com/ojneb/eirmed/blob/main/whiteBgGreenLogoCentered.png?raw=true'); /* Updated image hosted on GitHub */
             background-size: cover;
             background-position: center;
             display: flex;
@@ -29,7 +34,7 @@
             text-decoration: none;
             font-size: 18px;
             border-radius: 5px;
-            margin-top: auto; /* Pushes the link up from the bottom */
+            margin-top: auto; /* This will push the link to the bottom */
         }
 
         a:hover {
