@@ -14,14 +14,14 @@
 
         /* Style for the body to add the background image */
         body {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end; /* Aligns items to the end (bottom) */
+            align-items: center;
             height: 100vh; /* Full viewport height */
             background-image: url('https://github.com/ojneb/eirmed/blob/main/whiteBgGreenLogoCentered.png?raw=true'); /* Updated image hosted on GitHub */
             background-size: cover;
             background-position: center;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-end; /* Align items to the end (bottom) */
-            align-items: center;
             font-family: Arial, sans-serif;
             overflow: hidden; /* Prevents scrolling */
         }
@@ -34,7 +34,7 @@
             text-decoration: none;
             font-size: 18px;
             border-radius: 5px;
-            margin-top: auto; /* This will push the link to the bottom */
+            margin-bottom: 20px; /* Adds space at the bottom, adjust as needed */
         }
 
         a:hover {
